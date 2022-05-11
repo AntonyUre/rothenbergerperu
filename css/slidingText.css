@@ -52,9 +52,12 @@
     justify-content: center;
   }
   .sliderText{
-    height: 25px;
+    height: 30px;
     /* padding-left:15px; */
     overflow: hidden;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
   }
   .sliderText div {
     color:#fff;
@@ -68,12 +71,12 @@
     /* background: lightgreen; */
     animation: slide 5s linear infinite;
   }
-  .slider-text2 {
-    /* background: skyblue; */
+  /* .slider-text2 {
+    background: skyblue;
   }
   .slider-text3 {
-    /* background: lightcoral; */
-  }
+    background: lightcoral;
+  } */
   @keyframes slide {
     0% {margin-top:-300px;}
     5% {margin-top:-200px;}
